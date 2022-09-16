@@ -1,10 +1,7 @@
 from abc import ABC, abstractmethod
 
-class Battery(ABC):
 
-    def __init__(self):
-        pass
-    
+class Serviceable(ABC):
     @abstractmethod
     def needs_service(self):
         pass
